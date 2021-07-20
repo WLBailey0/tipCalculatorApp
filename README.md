@@ -1,4 +1,4 @@
-#Tip Calculator App
+<h1>Tip Calculator App</h1>
 
 Tip calculator app made in android studio.
 
