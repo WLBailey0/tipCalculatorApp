@@ -2,6 +2,7 @@ package com.example.tipcalc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 tipAmount.setText(String.format("Tip Amount\n$%.2f\nTotal\n$%.2f", tip, (billAmount + tip)));
             }
         });
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 
 }
